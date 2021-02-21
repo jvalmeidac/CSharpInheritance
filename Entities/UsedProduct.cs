@@ -4,7 +4,7 @@ namespace CSharpHeritage.Entities
 {
     public class UsedProduct : Product
     {
-        public DateTime ManufactureDate { get; set; }
+        public DateTime ManufactureDate { get; protected set; }
 
         public UsedProduct() { }
         public UsedProduct(string name, double price, DateTime manufactureDate)

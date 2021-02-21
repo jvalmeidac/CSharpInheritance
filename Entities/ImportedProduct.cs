@@ -2,7 +2,7 @@ namespace CSharpHeritage.Entities
 {
     public class ImportedProduct : Product
     {
-        public double CustomFee { get; set; }
+        public double CustomFee { get; protected set; }
 
         public ImportedProduct() { }
 
